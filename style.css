@@ -44,16 +44,12 @@ nav ul {
 }
 
 nav li {
-    /* display: flex; */
+    flex: 1;
     margin: auto;
-   
-    /* border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 30%; */
-    
-    
 }
 
 .nav-logo {
+    /* flex: 1; */
     width: 1rem;
     padding-right: 1rem;
     
@@ -76,7 +72,7 @@ a:hover {
 
 
 .deal {
-    /* display: flex; */
+    display: flex;
     margin-bottom: 1rem;
     background-image: url(./images/dealcoverpic.jpg);
     background-size: 100%;
@@ -92,13 +88,7 @@ a:hover {
     padding-top: 39px;
     font-size: 2.4rem;
 }
-.deal > img {
-    width:90vw;
-    height:40vh;
-    border-radius: 15px;
-    
-    
-}
+
 
 .content {
     display: grid;
