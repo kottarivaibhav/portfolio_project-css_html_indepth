@@ -12,48 +12,70 @@ When it comes to styling, you'll have to create the appropriate look and feel fo
         <meta name="description" content="A brief description">
         <meta name="author" content="David Matthews">
 
-        <link href="styles.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <img src="logo_yellow.png">
+            <img src="./images/logo_yellow.png">
         </header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Home</a></li>
-                <li><a href="book.html">Home</a></li>
-                <li><a href="about.html">Home</a></li>
+                <li><img src="./images/lemon_yellow.png" class="nav-logo"><a href="index.html">Home</a></li>
+                <li><img src="./images/lemon_yellow.png" class="nav-logo"><a href="">Menu</a></li>
+                <li><img src="./images/lemon_yellow.png" class="nav-logo"><a href="">Book</a></li>
+                <li><img src="./images/lemon_yellow.png" class="nav-logo"><a href="">About</a></li>
             </ul>
         </nav>
         <main>
-            <section>
+            <section class="deal">
+               <p><strong><i>Save 10% off the entire meal with coupon!</i></strong></p>
+               <button>Click For Coupon</button>
+            </section>
+            <section class="content">
                 <article>
-                    <h1>Heading 1</h1>
+                    <h3>All-New Menu</h3>
+                    <br/>
+                    <img src="./images/pitaandhummus.jpg" class="pics">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nihil ut voluptatum sapiente laudantium! Obcaecati, quod, commodi perferendis ducimus dolorem reiciendis eum excepturi porro ipsa dolorum unde consequuntur eaque veritatis!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nihil ut voluptatum sapiente laudantium! 
                     </p>
+                    <button class="select">Menu</button>
                 </article>
                 <article>
-                    <h1>Heading 1</h1>
+                    <h3>Book a Table</h3>
+                    <br/>
+                    <img src="./images/veggies.jpg" class="pics">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nihil ut voluptatum sapiente laudantium! Obcaecati, quod, commodi perferendis ducimus dolorem reiciendis eum excepturi porro ipsa dolorum unde consequuntur eaque veritatis!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nihil ut voluptatum sapiente laudantium! 
                     </p>
+                    <button class="select">Book</button>
                 </article>
                 <article>
-                    <h1>Heading 1</h1>
+                    <h3>Hours</h3>
+                    <br/>
+                    <img src="./images/olive oil.jpg" class="pics">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nihil ut voluptatum sapiente laudantium! Obcaecati, quod, commodi perferendis ducimus dolorem reiciendis eum excepturi porro ipsa dolorum unde consequuntur eaque veritatis!
+                        - Mon - Fri: 9am - 10pm<br/>
+                        - Saturday: 8am - 11pm<br/>
+                        - Sunday: Closed <br/>
+                        
+                        - Contact: (321) 555-1234
                     </p>
+                    
+                    <button class="select">Call</button>
                 </article>
             </section>
         </main>
+        <br>
+        <br>
+        <hr>
+        
         <footer>
             <div>
-                <img src="logo_footer_yellow.png">
+                <img src="./images/logo_footer_yellow.png" id="footer-logo">
             </div>
             <div>
-                <p>Copyright Little Lemon</p>
+                <p id="copyright">Copyright Little Lemon</p>
             </div>
         </footer>
 
