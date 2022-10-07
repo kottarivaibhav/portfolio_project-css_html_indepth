@@ -100,8 +100,8 @@ li:hover .nav-logo:first-of-type {
 
 
 .content {
-    display: grid;    
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.2rem;
     
     
