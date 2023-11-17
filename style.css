@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 body {
     background-color: #edefee;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +21,7 @@ header > img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
-    width: 80%;
+    width: 60%;
 }
 
 nav ul {
@@ -32,10 +29,10 @@ nav ul {
     list-style: none;
     text-align: center;
     background-color: darkolivegreen;
-    height: 2.5rem;
+    height: 4rem;
     margin: 0;
     margin-bottom: 1rem;
-    border-radius: 15px;
+    border-radius: 6px;
     font-size: 0.7em;
     
     
@@ -80,22 +77,29 @@ li:hover .nav-logo:first-of-type {
     margin-bottom: 1rem;
     background-image: url(./images/dealcoverpic.jpg);    
     background-size: 100%;
-    background-repeat: repeat-x;
-    background-blend-mode: darken;
+    
+    background-blend-mode:saturation;
     height: 19rem;
     border-radius: 15px;
-    font-size: 2rem;
     
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
     
 }
 
-.deal > p {
+.deal  >p {
     margin-right: 25rem;
     margin-left: 1rem;
     padding-top: 39px;
-    font-size: 1.5rem;
+    padding-bottom:100px;
+    font-size: 80px;
     text-transform: uppercase;
+    color: rgb(255, 255, 255);
     
+}
+.id {
+    color: yellow;
 }
 
 
@@ -108,7 +112,7 @@ li:hover .nav-logo:first-of-type {
 }
 
 article {
-    border: darkolivegreen 1px solid;
+    border: rgb(101, 130, 52) 1px solid;
     border-radius: 15px;
     padding: 1rem;   
     text-align: center; 
@@ -159,4 +163,37 @@ button:hover {
     transform: rotate(360deg);
     transition: 0.4s;
 }
+.footer-social {
+    text-align: end;
+    justify-self: unset;
+}
+
+.footer-social h3 {
+    font-size: 1.2em;
+    border-bottom: 1px solid rgb(38, 190, 81);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block; /* Display list items in a line */
+    margin-right: 15px; /* Add some spacing between items */
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: rgb(30, 106, 30);
+    transition: color 0.3s ease;
+}
+
+.footer-social :hover {
+    color: #ffd700; /* Change to the desired hover color */
+}
+
+
 
