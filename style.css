@@ -21,6 +21,8 @@ header > img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
+    marker-start: 2rem;
+    padding-top: 5rem;
     width: 60%;
 }
 
@@ -34,8 +36,6 @@ nav ul {
     margin-bottom: 1rem;
     border-radius: 6px;
     font-size: 0.7em;
-    
-    
 }
 
 nav li {
